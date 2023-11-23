@@ -66,3 +66,17 @@ html {
     text-wrap: nowrap;
 }
 
+/* HERO SECTION */
+.hero {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    padding: 2rem;
+    margin: 0;
+}
