@@ -1,0 +1,31 @@
+/* GLOBAL STYLES */
+
+html {
+    font-size: 62.5%;
+  }
+  
+  body {
+    font-family: 'Open Sans', sans-serif;
+    color: #a1aeb7;
+    letter-spacing: 0;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: #505d68;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  a {
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
