@@ -41,6 +41,8 @@ html {
   .nav-img img {
     width: 10em;
     margin-left: 1em;
+    overflow: hidden;
+    border-radius: 50%;
   }
 
   .toggle-wrapper {
