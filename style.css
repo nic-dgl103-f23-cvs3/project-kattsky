@@ -74,14 +74,38 @@ html {
 .hero {
     display: flex;
     flex-flow: column;
-    justify-content: center;
+    align-items: center;
     text-align: center;
     padding-top: 2rem;
+    position: relative;
 }
 
 .hero h1 {
     font-size: 3rem;
     padding: 2rem;
     margin: 0;
-    color: #2a7cba;
+    color: #fff;
+    position: absolute;
+    z-index: 2;
 }
+
+.view-overlay {
+    background-color: #504f4f;
+    opacity: .3;
+    /* width: 90vw;             to be reused for desktop view
+    height: 90vh; */ 
+    object-fit: scale-down;
+    position: absolute;
+    z-index: 1;
+  }
+
+  .mobile-hero-img {
+    width: 90vw;
+    height: 90vh;
+    object-fit: scale-down;
+    z-index: 0;
+  }
+
+  .desktop-hero-img {
+    display: none;
+  }
