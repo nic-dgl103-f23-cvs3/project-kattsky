@@ -8,6 +8,7 @@ html {
     font-family: 'Open Sans', sans-serif;
     color: #a1aeb7;
     letter-spacing: 0;
+    background-color: #2a7cba;
   }
   
   * {
@@ -48,6 +49,7 @@ html {
     font-size: 3em;
     padding: 1em 0.5em;
     position: relative;
+    color: #fff;
   }
 
   .navlinks {
