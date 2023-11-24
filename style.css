@@ -54,6 +54,10 @@ html {
     display: none; /* hides navigation links in smaller screens*/
   }
 
+  .navlinks a {
+    color: white;
+  }
+
   .show-links { /* displays navigation links in a column layout when toggled */
     display: flex;
     flex-direction: column;
@@ -61,7 +65,7 @@ html {
     padding: 0.5em;;
     position: absolute;
     right: 2em;
-    background-color: #50C878;
+    background-color: #2a7cba;
     line-height: 2rem;
     text-wrap: nowrap;
 }
