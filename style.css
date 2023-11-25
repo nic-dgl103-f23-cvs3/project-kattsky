@@ -167,7 +167,7 @@ html {
     text-transform: capitalize;
     color: #19a86a;
     font-size: 1.5rem;
-    padding-bottom: 2em;
+    padding: 2rem;
   }
 
   .programs scan {
@@ -189,9 +189,7 @@ html {
   
   .card img {
     width: 87vw;
-    height: 80vh;
-    object-fit: contain;
-    margin-top: -20px;
+    object-fit: fill;
     overflow: hidden;
     border-radius: 15px 15px 0 0;
   }
