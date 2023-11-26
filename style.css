@@ -223,6 +223,7 @@ html {
     background: #fcfcff;
     border-radius: 15px 15px 0 0;
     border: 1px solid #19a86a;
+    box-shadow: rgba(25, 168, 106, 0.4) 0px 2px 4px, rgba(25, 168, 106, 0.3) 0px 7px 13px -3px, rgba(25, 168, 106, 0.2) 0px -3px 0px inset;
 }
 
   .get-involved-card p {
