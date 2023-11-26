@@ -280,6 +280,44 @@ html {
     padding: 2rem;
   }
 
+  .newsletter form input[type="text"], 
+  .newsletter form input[type="email"] {
+    height: 40px; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 0.6rem;
+    margin-bottom: 1.6rem;
+  }
+
+  .newsletter form .label-required {
+    font-size: 0.8rem;
+    color: red;
+  }
+  
+  .newsletter form .label:required {
+    border: 1px solid red;
+  }
+
+  .newsletter form input[type="submit"] {
+    background-color: #19a86a;
+    color: white;
+    padding: 1.5rem;
+    border: 1px solid #19a86a;
+    border-radius: 4px;
+    margin-top: 0.6rem;
+    margin-bottom: 1.6rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 0.6rem;
+    margin-bottom: 1.6rem;
+  }
+  
+  .newsletter form [type="submit"]:hover {
+    background-color: #19a86a;
+  }
+
   .privacy-note {
     font-size: 1.2rem;
     text-align: left;
