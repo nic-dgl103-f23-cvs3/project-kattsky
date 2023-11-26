@@ -203,6 +203,7 @@ html {
     text-align: center;
     padding: 0 2rem 5rem 2rem;
     gap: 3rem;
+    background-color: #fff;
   }
 
   .get-involved img {
@@ -212,15 +213,16 @@ html {
   .get-involved h2 {
     padding: 0 3rem;
     font-size: 3rem;
-    color: #fff;
+    color: #2a7cba;
   }
   
   .get-involved-card {
     text-align: left;
     font-size: 1.4rem;
     line-height: 2rem;
-    background: #fff;
+    background: #fcfcff;
     border-radius: 15px 15px 0 0;
+    border: 1px solid #19a86a;
 }
 
   .get-involved-card p {
