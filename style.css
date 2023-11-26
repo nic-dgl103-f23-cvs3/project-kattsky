@@ -276,10 +276,11 @@ html {
     display: flex;
     flex-direction: column;
     font-size: 1.5rem;
-    color: #fff;
+    color: #2a7cba;
     line-height: 3rem;
     padding: 2rem;
-    background-color: #2a7cba;
+    background-color: #fcfcff;
+    border: 1px solid #2a7cba;
     border-radius: 15px;
   }
 
