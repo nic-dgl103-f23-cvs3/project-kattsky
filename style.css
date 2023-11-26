@@ -201,12 +201,16 @@ html {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 2rem;
+    padding: 0 2rem 5rem 2rem;
     gap: 3rem;
+  }
+
+  .get-involved img {
+    width: 100vw;
   }
   
   .get-involved h2 {
-    padding: 2rem 3rem;
+    padding: 0 3rem;
     font-size: 3rem;
     color: #fff;
   }
