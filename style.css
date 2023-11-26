@@ -328,3 +328,60 @@ html {
     text-align: left;
     padding-bottom: 5rem;
   }
+
+  /* FOOTER SECTION */
+  footer {
+    margin-top: -2rem;
+    background-color: #fcfcff;
+  }
+
+  .footer-columns-wrapper {
+    padding: 2rem;
+    font-size: 1.4rem;
+    text-align: center;
+    line-height: 4rem;
+  }
+
+  .footer-about-column nav {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer-contacts-column address {
+    font-style: normal;
+    padding-top: 2rem;
+    color: #008000;
+  }
+
+  .footer-contacts-column a {
+    text-transform: lowercase;
+  }
+
+  .socialmedia-icons {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    font-size: 2rem;
+  }
+
+  footer img {
+    width: 100vw;
+    object-fit: cover;
+  }
+
+  .copyright-mobileview {
+    margin-top: -5px;
+    margin-bottom: 0;
+    background-color: #19a86a;
+    line-height: 2rem;
+    font-size: 1.2rem;
+    text-wrap: balance;
+    text-align: center;
+    padding-top: 2rem;
+  }
+
+  .copyright-desktopview {
+    display: none;
+  }
