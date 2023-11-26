@@ -28,6 +28,7 @@ html {
   a {
     text-decoration: none;
     text-transform: uppercase;
+    color: #008000;
   }
   
   /* HEADER SECTION */
@@ -166,14 +167,13 @@ html {
 
   .programs a {
     text-transform: capitalize;
-    color: #19a86a;
     font-size: 1.5rem;
     padding: 2rem;
   }
 
   .programs scan {
     font-size: 2rem;
-    color: #19a86a;
+    color: #008000;
     margin-top: -20px;
     margin-bottom: 40px;
   }
@@ -241,7 +241,6 @@ html {
 
   .get-involved a {
     padding: 0 2rem;
-    color: #19a86a;
   }
 
   .get-involved i {
