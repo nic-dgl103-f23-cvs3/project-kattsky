@@ -395,8 +395,34 @@ html {
 
   /* Large devices (desktops, 1200px and up) */
   @media only screen and (min-width: 1200px) {
-    
+    /* HEADER SECTION */
 
+    header {
+        max-width: 1170px;
+        margin: auto;
+        padding: 3rem 5rem;
+    }
 
+    .navbar {
+        display: flex;
+        align-items: center;
+        
+    }
+    .toggle-wrapper {
+        display: none;
+    }
+    .navlinks {
+        display: flex;
+    }
 
+    .navlinks a {
+        margin-right: 49px;
+        font-size: 1.4rem;
+        letter-spacing: 1px;
+    }
+    .navlinks i {
+        font-size: 1.6rem;
+        color: red;
+        margin-left: -40px;
+    }
   }
