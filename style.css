@@ -425,4 +425,24 @@ html {
         color: red;
         margin-left: -40px;
     }
+
+    /* HERO SECTION */
+    .hero {
+        max-width: 1170px;
+        margin: auto;
+    }
+
+    .mobile-hero-img {
+        display: none;
+    }
+    .desktop-hero-img {
+        display: block;
+        width: 100vw;
+        margin-bottom: 25rem;
+    }
+    .hero h1 {
+        font-size: 4.5rem;
+        padding: 2rem;
+    }
+
   }
