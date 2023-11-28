@@ -480,4 +480,12 @@ html {
     .card a {
         margin-top: 0;
     }
+
+    /* GET INVOLVED SECTION */
+    .get-involved {
+        max-width: 1170px;
+        margin: auto;
+        padding: 0;
+    }
+    
   }
