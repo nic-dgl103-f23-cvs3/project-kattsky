@@ -445,4 +445,27 @@ html {
         padding: 2rem;
     }
 
+    /* ABOUT SECTION */
+    .about {
+        max-width: 1170px;
+        margin: auto;
+    }
+    .about a {
+        margin-bottom: 9rem;
+    }
+
+    /* PROGRAMS */
+    .programs {
+        max-width: 1170px;
+        margin: auto;
+    }
+    .programs p {
+        font-size: 2.5rem;
+        padding: 3rem 0 4rem 0;
+        margin-top: -70px;
+        width: 60vw; 
+    }
+    .programs a {
+        margin-top: -6rem;
+    }
   }
