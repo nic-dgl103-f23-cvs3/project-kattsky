@@ -487,5 +487,29 @@ html {
         margin: auto;
         padding: 0;
     }
-    
+    .get-involved-heading {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: -5px;
+        width: 50%;
+    }
+
+    .get-involved-heading img {
+        width: 90%;
+        margin-top: 7rem;
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+        margin-left: -230px;
+    }
+    .get-involved-heading h2 {
+        padding-top: 4rem;
+    }
+   .support-beaufort {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        margin-top: -390px;
+        margin-left: 580px;
+        padding-bottom: 7rem;
+    }
+        
   }
