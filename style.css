@@ -511,5 +511,11 @@ html {
         margin-left: 580px;
         padding-bottom: 7rem;
     }
+
+    /* NEWSLETTER SECTION */
+    .newsletter {
+        max-width: 1170px;
+        margin: auto;
+    }
         
   }
