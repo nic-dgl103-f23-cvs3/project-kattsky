@@ -388,3 +388,12 @@ html {
   .copyright-desktopview {
     display: none;
   }
+
+
+  /* Large devices (desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    
+
+
+
+  }
