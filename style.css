@@ -533,4 +533,10 @@ html {
         margin-left: 13rem;
     }
 
+     /* FOOTER SECTION */
+
+     footer {
+        max-width: 1170px;
+        margin: auto;
+    }
   }
