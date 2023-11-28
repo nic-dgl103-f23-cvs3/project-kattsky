@@ -55,6 +55,10 @@ html {
     color: #fff;
   }
 
+  .toggle-wrapper i {
+    color: #fff;
+  }
+
   .navlinks {
     display: none; /* hides navigation links in smaller screens*/
   }
