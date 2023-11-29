@@ -432,6 +432,34 @@ html {
     padding: 2rem;
   }
 
+  /* ================GET SUPPORT PAGE ================*/
+
+  /* HERO SECTION */
+
+  .support-hero {
+    margin-top: 4rem;
+  }
+
+  .support-hero h1 {
+    font-size: 3rem;
+    padding-left: 1rem;
+    margin-top: -1rem;
+    color: #2a7cba;
+    position: absolute;
+    background-color: #fff;
+    width: 23rem;
+    border-radius: 0 40px 40px 0;
+}
+  
+  .support-hero-img {
+    width: 90%;
+    object-fit: cover;
+    margin-bottom: 3rem;
+    margin-left: 3rem;
+}
+
+
+
   /* Large devices (desktops, 1200px and up) */
   @media only screen and (min-width: 1200px) {
     /* HEADER SECTION */
