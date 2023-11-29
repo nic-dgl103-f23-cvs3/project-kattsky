@@ -425,7 +425,12 @@ html {
     text-align: center;
     padding-top: 2rem;
   }
-
+  .disclaimer {
+    background-color: #19a86a;
+    font-size: 1.2rem;
+    margin-top: -2rem;
+    padding: 2rem;
+  }
 
   /* Large devices (desktops, 1200px and up) */
   @media only screen and (min-width: 1200px) {
