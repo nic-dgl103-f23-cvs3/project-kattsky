@@ -402,11 +402,15 @@ html {
 
   .socialmedia-icons {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    gap: 5rem;
-    margin-top: 3rem;
+    gap: 1.5rem;
     margin-bottom: 5rem;
     font-size: 2rem;
+  }
+  .socialmedia-icons h4 {
+    font-size: 1.6rem;
   }
 
   footer img {
