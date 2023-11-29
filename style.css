@@ -78,7 +78,6 @@ html {
     background-color: #2a7cba;
     line-height: 5rem;
     font-size: 1.6rem;
-    text-wrap: nowrap;
     z-index: 3;
 }
 
@@ -423,7 +422,6 @@ html {
     background-color: #19a86a;
     line-height: 2rem;
     font-size: 1.2rem;
-    text-wrap: balance;
     text-align: center;
     padding-top: 2rem;
   }
