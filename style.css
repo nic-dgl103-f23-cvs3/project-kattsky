@@ -391,6 +391,11 @@ html {
     color: #008000;
   }
 
+  .footer-contacts-column address p {
+    color: #505d68;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+  }
   .footer-contacts-column a {
     text-transform: lowercase;
   }
@@ -587,6 +592,12 @@ html {
 
     .footer-contacts-column address {
         padding: 0;
+    }
+    .footer-contacts-column address p {
+        color: #505d68;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        padding-top: 2px;
     }
     .socialmedia-icons {
         display: block;
