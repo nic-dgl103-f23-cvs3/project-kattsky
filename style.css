@@ -464,12 +464,15 @@ html {
     }
     .desktop-hero-img {
         display: block;
-        width: 100vw;
-        margin-bottom: 25rem;
+        width: 100%;
+        margin-bottom: 18rem;
     }
     .hero h1 {
         font-size: 4.5rem;
         padding: 2rem;
+        background-color: #2a7cba;
+        margin-top: -0.5rem;
+        width: 100%;
     }
 
     /* ABOUT SECTION */
@@ -495,14 +498,20 @@ html {
     .programs a {
         margin-top: -6rem;
     }
+
+    .cards-wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0 4rem;
+    }
     .card {
         height: 70vh;
         width: 30%;
-        border-radius: 15px;
     }
     .card img {
         width: 100%;
-        height: 90%;
+        height: 100%;
     }
     .card a {
         margin-top: 0;
