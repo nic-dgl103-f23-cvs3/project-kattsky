@@ -528,8 +528,7 @@ html {
    .support-beaufort {
         display: flex;
         flex-direction: column;
-        gap: 2rem;
-        margin-top: -390px;
+        margin-top: -365px;
         margin-left: 580px;
         padding-bottom: 7rem;
     }
