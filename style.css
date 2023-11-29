@@ -131,7 +131,7 @@ html {
     padding-bottom: 100px;
   }
 
-  .about p {
+  .about h2 {
     font-size: 3rem;
     color: #fff;
     margin-top: -120px;
@@ -163,7 +163,7 @@ html {
     padding-bottom: 70px;
   }
 
-  .programs p {
+  .programs h2 {
     font-size: 2rem;
     padding: 2rem 3rem;
     background-color: #fff;
@@ -484,12 +484,12 @@ html {
         margin-bottom: 9rem;
     }
 
-    /* PROGRAMS */
+    /* PROGRAMS SECTION */
     .programs {
         max-width: 1170px;
         margin: auto;
     }
-    .programs p {
+    .programs h2 {
         font-size: 2.5rem;
         padding: 3rem 0 4rem 0;
         margin-top: -70px;
