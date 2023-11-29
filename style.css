@@ -185,6 +185,12 @@ html {
     margin-bottom: 40px;
   }
 
+  .cards-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+  }
   .card {    
     display: flex;
     flex-direction: column;
@@ -196,8 +202,7 @@ html {
   }
   
   .card img {
-    width: 87vw;
-    object-fit: fill;
+    width: 100%;
     overflow: hidden;
     border-radius: 15px 15px 0 0;
   }
