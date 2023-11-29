@@ -271,8 +271,31 @@ html {
   .newsletter h3 {
     font-size: 1.9rem;
     margin: 0;
-    padding: 0;
+    padding: 0.5rem;
     text-align: center;
+    background-color: #fcfcff;
+    border-radius: 25px;
+    position: relative;
+    display: inline-block;
+    transform: translateY(50%) translateY(-0.1rem) translateX(2rem);
+  }
+
+  /* Implement code for newsletter style from https://www.michaeljfox.org/
+  with modifications applied to translate, added translateX, bgcolor, and location of dots */
+  .newsletter h3:before {
+    left: -0.7rem;
+  }
+  .newsletter h3:after {
+    right: -0.7rem;
+  }
+  .newsletter h3::before, .newsletter h3::after {
+    background-color: #2a7cba;
+    border-radius: 50%;
+    content: "";
+    height: 0.8rem;
+    position: absolute;
+    top: calc(50% - 0.3rem);
+    width: 0.8rem;
   }
 
   .newsletter p {
