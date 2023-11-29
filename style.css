@@ -539,4 +539,28 @@ html {
         max-width: 1170px;
         margin: auto;
     }
+    .footer-columns-wrapper {
+        display: flex;
+        justify-content: space-around;
+        width: 63%;
+        text-align: left;
+    }
+
+    .footer-contacts-column address {
+        padding: 0;
+    }
+    .socialmedia-icons {
+        display: block;
+        font-size: 3rem;
+        float: right;
+        margin-top: -290px;
+        margin-right: 12rem;
+    }
+    .socialmedia-icons h4 {
+        font-size: 1.6rem;
+    }
+    .socialmedia-icons a {
+        margin-right: 15px;
+    }
+
   }
