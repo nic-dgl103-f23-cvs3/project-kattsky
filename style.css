@@ -213,22 +213,25 @@ html {
     background-color: #fff;
   }
 
-  .get-involved img {
+  .get-involved-heading img {
     width: 100vw;
   }
   
-  .get-involved h2 {
+  .get-involved-heading h2 {
     padding: 0 3rem;
     font-size: 3rem;
     color: #505d68;
   }
   
+  .support-beaufort {
+    display: flex;
+    flex-direction: column;
+  }
   .get-involved-card {
     text-align: left;
     font-size: 1.6rem;
     line-height: 2rem;
     background: #fcfcff;
-    border-radius: 15px 15px 0 0;
     box-shadow: rgba(25, 168, 106, 0.4) 0px 2px 4px, rgba(25, 168, 106, 0.3) 0px 7px 13px -3px, rgba(25, 168, 106, 0.2) 0px -3px 0px inset;
 }
   .get-involved-card:hover {
@@ -241,8 +244,8 @@ html {
   }
 
   .get-involved-cta {
-    border-top: 1px solid #19a86a;
-    padding: 2rem 0;
+    text-align: right;
+    padding: 0 2rem 1rem;
   }
 
   .get-involved a {
