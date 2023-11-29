@@ -567,4 +567,10 @@ html {
         display: inline;
     }
  
+    .disclaimer {
+        background-color: #19a86a;
+        font-size: 1.2rem;
+        margin: 0;
+        padding: 1rem 2rem;
+    }
   }
