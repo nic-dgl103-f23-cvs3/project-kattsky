@@ -377,7 +377,7 @@ html {
     width: 100%;
   }
 
-  .copyright-mobileview {
+  .copyright {
     margin-top: -5px;
     margin-bottom: 0;
     background-color: #19a86a;
@@ -386,10 +386,6 @@ html {
     text-wrap: balance;
     text-align: center;
     padding-top: 2rem;
-  }
-
-  .copyright-desktopview {
-    display: none;
   }
 
 
@@ -562,5 +558,13 @@ html {
     .socialmedia-icons a {
         margin-right: 15px;
     }
-
+    .copyright {
+        display: flex;
+        justify-content: space-between;
+        padding: 2rem;
+    }
+    .copyright p {
+        display: inline;
+    }
+ 
   }
