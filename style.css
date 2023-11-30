@@ -852,6 +852,7 @@ html {
       margin: auto;
       display: flex;
       margin-top: -2px;
+      padding-bottom: 5rem;
     }
     .visit-us h2 {
       font-size: 3.5rem;
