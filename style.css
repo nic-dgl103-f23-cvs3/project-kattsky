@@ -791,6 +791,22 @@ html {
 
   /* ================GET SUPPORT PAGE ================*/
 
+  /* HERO SECTION */
+  .support-hero {
+      max-width: 1170px;
+      margin: auto;
+      margin-top: 5rem;
+    }
+  .support-hero h1 {
+    font-size: 3.5rem;
+    width: 43%;
+    padding: 2rem 1rem;
+  }
+  .support-hero img {
+    width: 98%;
+    margin-top: 4rem;
+  }
+  
   /* VISIT US SECTION */
     .visit-us {
       max-width: 1170px;
