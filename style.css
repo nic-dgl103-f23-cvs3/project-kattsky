@@ -806,6 +806,43 @@ html {
     width: 98%;
     margin-top: 4rem;
   }
+
+  /* COMMUNITY SECTION */
+
+  .community {
+    max-width: 1170px;
+    margin: auto;
+    max-width: 1170px;
+    margin: auto;
+    margin-top: -3.5rem;
+    position: relative;
+    border-radius: 20px 20px 0 0;
+  }
+  .community h2 {
+    font-size: 2.5rem;
+    padding: 2rem 3rem;
+    margin-top: -70px;
+    width: 60vw;
+  }
+
+  .community-cards-wrapper {
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 8rem;
+  }
+  .community-card-rectangle,
+  .community-card-square {
+    flex: 0 calc(25.33% - 10px);
+    justify-content: space-evenly;
+    height: 290px;
+  }
+
+  .community-card-rectangle img {
+    padding-top: 8rem;
+  }
+
   
   /* VISIT US SECTION */
     .visit-us {
