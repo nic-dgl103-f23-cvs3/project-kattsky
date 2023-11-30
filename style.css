@@ -533,6 +533,62 @@ html {
   border-radius: 15px 15px 0 0;
 }
 
+
+/* VISIT US SECTION */
+
+.visit-us {
+  margin-top: -3rem;
+  background-color: #fff;
+}
+.visit-us h2 {
+  font-size: 3rem;
+  padding-left: 1rem;
+  margin-top: -2rem;
+  color: #fff;
+  position: absolute;
+  background-color: #2a7cba;
+  width: 25rem;
+  border-radius: 0 40px 40px 0;
+  margin-bottom: 5rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.visit-us h3 {
+  padding: 10rem 0 0 1rem;
+  font-size: 2.5rem;
+}
+.visit-us iframe {
+  border: 0;
+  width: 100%;
+  object-fit: scale-down;
+}
+.get-in-touch {
+  padding-bottom: 5rem;
+}
+.get-in-touch h3 {
+  margin-top: -5rem;
+}
+.get-in-touch i {
+  font-size: 1.6rem;
+    color: #19a86a;
+    padding: 0 1rem;
+
+}
+.get-in-touch p, 
+.get-in-touch a {
+  font-size: 1.6rem;
+}
+.email i {
+  font-size: 1.6rem;
+  color: #19a86a;
+  padding: 0 1rem;
+}
+.get-in-touch a,
+.email a {
+  display: inline-block;
+  font-size: 1.6rem;
+  text-transform: lowercase;
+}
+
   /* Large devices (desktops, 1200px and up) */
   @media only screen and (min-width: 1200px) {
     /* HEADER SECTION */
