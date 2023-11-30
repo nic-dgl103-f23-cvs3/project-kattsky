@@ -788,4 +788,37 @@ html {
         margin-top: -2px;
         padding: 1rem 2rem;
     }
+
+  /* ================GET SUPPORT PAGE ================*/
+    .visit-us {
+      max-width: 1170px;
+      margin: auto;
+      display: flex;
+      margin-top: -2px;
+    }
+    .visit-us h2 {
+      font-size: 3.5rem;
+      width: 43%;
+      padding: 2rem 1rem;
+    }
+    .meet-us {
+      width: 50%;
+      box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+  }
+    }
+    .get-in-touch {
+      width: 50%;
+      margin-top: 7.5rem;
+      box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+  }
+    .get-in-touch h3 {
+      margin-bottom: 5rem;
+    }
+    .get-in-touch i {
+      padding: 14rem 1rem 0 20rem;
+    }
+    .email i {
+      padding: 2rem 1rem 0 20rem;
+    }
+
   }
