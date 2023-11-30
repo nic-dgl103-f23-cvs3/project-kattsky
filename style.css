@@ -503,22 +503,20 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 48vh;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  width: 90vw;
+  width: 80vw;
   border-radius: 15px;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .community-card-rectangle {    
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 33vh;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  width: 90vw;
+  width: 80vw;
   border-radius: 15px;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .community-card-square img {
