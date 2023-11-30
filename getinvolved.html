@@ -128,10 +128,68 @@
                   >Semi House Society</a
                 >
               </div>
-
           </div>
-        
       </section>
+
+      <section class="volunteering">
+        <h2>Inspire through Service</h2>
+        <blockquote></blockquote>
+        <div class="volunteer-heading">
+            <img src="" alt="">
+            <p>Bring a smile to their faces.</p>
+        </div>
+
+        <div class="volunteer-form">
+            <p>Hi, Welcome!</p>
+            <p>Can you introduce yourself?</p>
+            <form
+            method="post"
+            action="https://learndigital.dev/DGL103/dgl103-form.php"
+            >
+            <label for="fname">First Name<span class="label-required">* (required)</span></label>
+            <input
+                type="text"
+                id="fname"
+                name="firstname"
+                placeholder="Ex: Mary"
+            />
+
+            <label for="lname">Last Name<span class="label-required">* (required)</span></label>
+            <input
+                type="text"
+                id="lname"
+                name="lastname"
+                placeholder="Ex: Jones"
+            />
+
+            <label for="email"
+                >Email <span class="label-required">* (required)</span></label
+            >
+            <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Ex: mary@gmail.com"
+                required
+            />
+
+            <fieldset>
+                <legend>Availability</legend>
+                <input type="radio" id="wday" name="wday" value="Weekdays">
+                <label for="wday">Weekdays</label><br>
+                <input type="radio" id="wend" name="wend" value="Weekends">
+                <label for="wend">Weekends</label><br>
+                <input type="radio" id="any" name="any" value="Any day">
+                <label for="any">Any day</label>
+              </fieldset>
+
+
+            <input type="submit" value="Submit" />
+            </form>
+        </div>
+
+      </section>
+
 
     </main>
     <footer>
