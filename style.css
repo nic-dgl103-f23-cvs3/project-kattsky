@@ -452,10 +452,10 @@ html {
 }
   
   .support-hero-img {
-    width: 90%;
+    width: 95%;
     object-fit: cover;
     margin-bottom: 3rem;
-    margin-left: 3rem;
+    margin-left: 1rem;
 }
 
 /* COMMUNITY SECTION */
