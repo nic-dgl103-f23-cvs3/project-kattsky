@@ -511,7 +511,7 @@ with modifications done on colors and border-radius and removing the top .1rem s
   transition: 0.1s;
   border-radius: 1rem;
   box-shadow: 0.1rem .5rem 0.3rem #19a86a;
-  transform: translateY(-2px);
+  transform: translateY(-2px);   /* reused from previous exercise */
 }
 .beaufort-cards a:active{
   background-color: #19a86a;
@@ -519,7 +519,7 @@ with modifications done on colors and border-radius and removing the top .1rem s
   border-radius: 1rem;
   transition: 0.1s;
   box-shadow: 0.1rem 0.1rem #19a86a;
-  transform: translateY(-2px);
+  transform: translateY(-2px);   /* reused from previous exercise */
 }
 /* Codepen code ends here */
 
@@ -813,7 +813,7 @@ with modifications done on colors and border-radius and removing the top .1rem s
   transition: 0.1s;
   border-radius: 1rem;
   box-shadow: 0.1rem .5rem 0.3rem #19a86a;
-  transform: translateY(-2px);
+  transform: translateY(-2px);   /* reused from previous exercise */
 }
 .card a:active{
   background-color: #19a86a;
@@ -821,7 +821,7 @@ with modifications done on colors and border-radius and removing the top .1rem s
   border-radius: 1rem;
   transition: 0.1s;
   box-shadow: 0.1rem 0.1rem #19a86a;
-  transform: translateY(-2px);
+  transform: translateY(-2px);   /* reused from previous exercise */
 }
 /* Codepen code ends here */
 
