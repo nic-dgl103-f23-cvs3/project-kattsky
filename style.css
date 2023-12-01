@@ -435,7 +435,7 @@ with modifications done on colors and border-radius, remove 1rem vertical drop o
   }
 
   .copyright {
-    margin-top: -5px;
+    margin-top: -6px;
     margin-bottom: 0;
     background-color: #19a86a;
     line-height: 2rem;
