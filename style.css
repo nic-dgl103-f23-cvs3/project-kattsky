@@ -977,6 +977,7 @@ html {
       .volunteering {
         max-width: 1170px;
         margin: auto;
+        margin-top: -3rem;
       }
    
       .volunteering blockquote {
