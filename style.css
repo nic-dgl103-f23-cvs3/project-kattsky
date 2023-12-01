@@ -1201,6 +1201,31 @@ with modifications done on colors and border-radius and removing the top .1rem s
         max-width: 1170px;
         margin: auto;
         margin-top: -3rem;
+        padding: 2rem;
+        align-items: flex-start;
       }
-     
+      .donate h2 {
+        font-size: 3.5rem;
+        width: 54%;
+        padding: 2rem 1rem;
+        margin-left: -2rem;
+      }
+
+     .donate-card {
+      width: 35%;
+      justify-content: flex-start;
+      margin-left: 8rem;
+     }
+     .donate-options {
+      align-items: center;
+    }
+
+    .thank-you-note {
+      display: inline-block;
+      width: 50%;
+      margin-top: -22rem;
+      margin-left: 54rem;
+      margin-bottom: 8rem;
+      line-height: 3rem;
+    }
   }
