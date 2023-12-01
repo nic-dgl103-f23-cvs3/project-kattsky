@@ -599,8 +599,105 @@ html {
     margin-bottom: 2rem;
   }
 
+/* VOLUNTEER SECTION */
 
+.volunteering {
+  margin-top: -3rem;
+  background-color: #fff;
+  padding-bottom: 5rem;
+}
+.volunteering h2 {
+  font-size: 3rem;
+  padding: 1rem;
+  margin-top: -2rem;
+  color: #fff;
+  position: absolute;
+  background-color: #2a7cba;
+  width: 39rem;
+  border-radius: 0 40px 40px 0;
+  margin-bottom: 5rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
 
+.volunteering blockquote {
+  padding: 8rem 1rem 2rem;
+  font-size: 1.6rem;
+  margin: 0;
+  font-style: italic;
+}
+
+.volunteering footer {
+  margin-top: 2rem;
+  text-align: right;
+  padding-right: 2rem;
+  background-color: #fff;
+}
+
+.volunteering p {
+  font-size: 2rem;
+  padding-left: 1rem;
+}
+.volunteering img {
+  width: 100vw;
+  padding: 2rem 0 1rem;
+}
+
+.volunteering form {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.6rem;
+  color: #2a7cba;
+  line-height: 3rem;
+  padding: 2rem;
+  background-color: #fcfcff;
+  border: 1px solid #2a7cba;
+  border-radius: 15px;
+  margin: 2rem;
+}
+
+.volunteering form input[type="text"], 
+.volunteering form input[type="email"] {
+  height: 4.5rem; 
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 0.6rem;
+  margin-bottom: 1.6rem;
+  padding-left: 1rem;
+}
+
+.volunteering form .label-required {
+  font-size: 1rem;
+  color: red;
+}
+
+.volunteering form .label:required {
+  border: 1px solid red;
+}
+
+.volunteering fieldset {
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 10px 10px 0 0;
+}
+.volunteering form input[type="submit"] {
+  background-color: #19a86a;
+  color: white;
+  padding: 1.5rem;
+  border: 1px solid #19a86a;
+  border-radius: 4px;
+  margin-top: 0.6rem;
+  margin-bottom: 1.6rem;
+  cursor: pointer;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 0.6rem;
+  margin-bottom: 1.6rem;
+}
+
+.volunteering form [type="submit"]:hover {
+  background-color: #46b987;
+}
 
   /* Large devices (desktops, 1200px and up) */
   @media only screen and (min-width: 1200px) {
