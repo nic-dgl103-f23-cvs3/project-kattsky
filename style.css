@@ -485,21 +485,14 @@ html {
   margin-bottom: 2rem;
 }
 
-.community-cards-wrapper {
+.beaufort-cards-wrapper {
   display: flex;
   flex-direction: column;
   gap: 2rem;
   align-items: center;
 }
 
-.community-card-square a, 
-.community-card-rectangle a {
-    text-transform: capitalize;
-    font-size: 1.6rem;
-    padding: 2rem;
-}
-
-.community-card-square {    
+.beaufort-cards {    
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -509,28 +502,16 @@ html {
   justify-content: space-evenly;
 }
 
-.community-card-rectangle {    
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  width: 80vw;
-  height: 250px;
-  border-radius: 15px;
-  justify-content: space-evenly;
+.beaufort-cards a {
+  text-transform: capitalize;
+  font-size: 1.6rem;
+  padding: 2rem;
 }
 
-.community-card-square img {
+.beaufort-cards img {
   width: 100%;
   overflow: hidden;
   border-radius: 15px 15px 0 0;
-}
-
-.community-card-rectangle img {
-  width: 100%;
-  overflow: hidden;
-  border-radius: 15px 15px 0 0;
-  padding-top: 2rem;
 }
 
 
@@ -592,6 +573,33 @@ html {
   /* ================GET INVOLVED PAGE ================*/
 
   /* SELF ADVOCACY SECTION */
+
+  .self-advocacy {
+    background-color: #fff;
+    padding: 2rem 2rem 3rem;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 70px;
+  }
+  
+  .self-advocacy h2 {
+    font-size: 2rem;
+      padding: 2rem 2rem;
+      background-color: #fff;
+      border-radius: 15px 15px 0 0;
+      margin-top: -80px;
+      width: 90vw;
+  }
+  
+  .self-advocacy p {
+    font-size: 1.6rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+
+
 
 
   /* Large devices (desktops, 1200px and up) */
@@ -832,24 +840,18 @@ html {
     width: 60vw;
   }
 
-  .community-cards-wrapper {
+  .beaufort-cards-wrapper {
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
     justify-content: center;
     margin-bottom: 8rem;
   }
-  .community-card-rectangle,
-  .community-card-square {
+  .beaufort-cards {
     flex: 0 calc(25.33% - 10px);
     justify-content: space-evenly;
     height: 290px;
   }
-
-  .community-card-rectangle img {
-    padding-top: 8rem;
-  }
-
   
   /* VISIT US SECTION */
     .visit-us {
