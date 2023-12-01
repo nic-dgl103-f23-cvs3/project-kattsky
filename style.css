@@ -803,6 +803,24 @@ with modifications done on colors and border-radius and removing the top .1rem s
         margin-top: 0;
     }
 
+    /* Below is from Codepen https://codepen.io/Vesh123/pen/YzJKwNp
+with modifications done on colors and border-radius and removing the top .1rem shadow on hover, remove 1rem vertical drop on :active, reduced blur effect to .3rem, and reduced vertical drop shadow in hover to .5rem*/
+.card a:hover{
+  background-color: #bae4d2;
+  color:#fff;
+  transition: 0.1s;
+  border-radius: 1rem;
+  box-shadow: 0.1rem .5rem 0.3rem #19a86a;
+}
+.card a:active{
+  background-color: #19a86a;
+  color:#fff;
+  border-radius: 1rem;
+  transition: 0.1s;
+  box-shadow: 0.1rem 0.1rem #19a86a;
+}
+/* Codepen code ends here */
+
     /* GET INVOLVED SECTION */
     .get-involved {
         max-width: 1170px;
