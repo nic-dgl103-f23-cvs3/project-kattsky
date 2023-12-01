@@ -1195,4 +1195,12 @@ with modifications done on colors and border-radius and removing the top .1rem s
         width: 80%;
       }
 
+      /* DONATE SECTION */
+
+      .donate {
+        max-width: 1170px;
+        margin: auto;
+        margin-top: -3rem;
+      }
+     
   }
