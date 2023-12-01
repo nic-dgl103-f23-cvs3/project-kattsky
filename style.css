@@ -526,7 +526,7 @@ with modifications done on colors and border-radius, remove 1rem vertical drop o
 /* Below is from Codepen https://codepen.io/Vesh123/pen/YzJKwNp
 with modifications done on colors and border-radius and removing the top .1rem shadow on hover, remove 1rem vertical drop on :active, reduced blur effect to .3rem, reduced vertical drop shadow in hover to .5rem*/
 .beaufort-cards a:hover{
-  background-color: #bae4d2;
+  background-color: #148654;
   color:#fff;
   transition: 0.1s;
   border-radius: 1rem;
@@ -828,7 +828,7 @@ with modifications done on colors and border-radius and removing the top .1rem s
     /* Below is from Codepen https://codepen.io/Vesh123/pen/YzJKwNp
 with modifications done on colors and border-radius and removing the top .1rem shadow on hover, remove 1rem vertical drop on :active, reduced blur effect to .3rem, and reduced vertical drop shadow in hover to .5rem*/
 .card a:hover{
-  background-color: #bae4d2;
+  background-color: #148654;
   color:#fff;
   transition: 0.1s;
   border-radius: 1rem;
