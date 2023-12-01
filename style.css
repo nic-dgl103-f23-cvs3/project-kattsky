@@ -367,6 +367,7 @@ html {
   footer {
     margin-top: -2rem;
     background-color: #fcfcff;
+    
   }
 
   .footer-columns-wrapper {
@@ -845,6 +846,7 @@ html {
      footer {
         max-width: 1170px;
         margin: auto;
+        margin-top: -3px;
     }
     .footer-columns-wrapper {
         display: flex;
@@ -879,6 +881,7 @@ html {
         display: flex;
         justify-content: space-between;
         padding: 2rem;
+        margin-top: -7px;
     }
     .copyright p {
         display: inline;
