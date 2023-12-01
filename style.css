@@ -1172,14 +1172,14 @@ with modifications done on colors and border-radius and removing the top .1rem s
         padding-right: 2rem;
       }
       .volunteering p {
-        padding-left: 12rem;
+        padding-left: 18rem;
       }
       .volunteering div {
         justify-content: center;
         display: flex;
       }
       .volunteering form {
-        width: 80%;
+        width: 70%;
       }
 
       /* DONATE SECTION */
