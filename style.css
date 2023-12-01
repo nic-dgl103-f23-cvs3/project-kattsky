@@ -984,4 +984,34 @@ html {
 
       /* ================GET INVOLVED PAGE ================*/
 
+      .volunteering {
+        max-width: 1170px;
+        margin: auto;
+      }
+   
+      .volunteering blockquote {
+        width: 50%;
+        display: inline-block;
+        padding: 20rem 5rem;
+        line-height: 3rem;
+      }
+
+      .volunteering img {
+        width: 50%;
+        position: relative;
+        float: right;
+        margin-top: 9rem;
+        padding-right: 2rem;
+      }
+      .volunteering p {
+        padding-left: 12rem;
+      }
+      .volunteering div {
+        justify-content: center;
+        display: flex;
+      }
+      .volunteering form {
+        width: 80%;
+      }
+
   }
