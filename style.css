@@ -753,6 +753,93 @@ with modifications done on colors and border-radius and removing the top .1rem s
   background-color: #46b987;
 }
 
+/* DONATE SECTION */
+
+.donate {
+  margin-top: -3rem;
+  background-color: #fff;
+  padding: 5rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.donate h2 {
+  font-size: 3rem;
+  padding: 1rem 5rem 1rem 1rem;
+  margin-top: -2rem;
+  margin-left: -10px;
+  color: #fff;
+  position: absolute;
+  background-color: #2a7cba;
+  width: 39rem;
+  border-radius: 0 40px 40px 0;
+  margin-bottom: 5rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.donate p {
+  padding: 12rem 2rem 2rem 1rem;
+}
+
+.donate-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 2rem;
+  border: 0.15rem solid #19a86a;
+  border-radius: 2.5rem;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  width: 70%;
+}
+
+.donate-card p {
+  padding: 0;
+  font-weight: 600;
+}
+
+.donate-options {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  border-top: 0.15rem solid #19a86a;
+  width: 100%;
+  padding: 4rem;
+}
+
+.donate-options a {
+  text-align: center;
+  padding: 1rem;
+  color: #fff;
+  width:19rem;
+  border-radius: 1rem;
+  background-color: #19a86a;
+}
+
+    /* Below is from Codepen https://codepen.io/Vesh123/pen/YzJKwNp
+with modifications done on colors and border-radius and removing the top .1rem shadow on hover, remove 1rem vertical drop on :active, reduced blur effect to .3rem, and reduced vertical drop shadow in hover to .5rem*/
+.card a:hover{
+  background-color: #148654;
+  color:#fff;
+  transition: 0.1s;
+  border-radius: 1rem;
+  box-shadow: 0.1rem .5rem 0.3rem #19a86a;
+  transform: translateY(-2px);   /* reused from previous exercise */
+}
+.card a:active{
+  background-color: #19a86a;
+  color:#fff;
+  border-radius: 1rem;
+  transition: 0.1s;
+  box-shadow: 0.1rem 0.1rem #19a86a;
+  transform: translateY(-2px);   /* reused from previous exercise */
+}
+/* Codepen code ends here */
+
+.thank-you-note {
+  margin-top: -8rem;
+}
+
+
   /* Large devices (desktops, 1200px and up) */
   @media only screen and (min-width: 1200px) {
     /* HEADER SECTION */
@@ -1060,6 +1147,23 @@ with modifications done on colors and border-radius and removing the top .1rem s
 
       /* ================GET INVOLVED PAGE ================*/
 
+      /* HERO SECTION */
+      .involvepage-hero {
+        max-width: 1170px;
+        margin: auto;
+        margin-top: 5rem;
+      }
+    .involvepage-hero h1 {
+      font-size: 3.5rem;
+      width: 32%;
+      padding: 2rem 1rem;
+    }
+    .involvepage-hero img {
+      width: 98%;
+      margin-top: 4rem;
+    }
+
+    /* VOLUNTEERING SECTION */
       .volunteering {
         max-width: 1170px;
         margin: auto;
