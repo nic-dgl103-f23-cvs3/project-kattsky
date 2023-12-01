@@ -604,6 +604,30 @@ with modifications done on colors and border-radius and removing the top .1rem s
 
   /* ================GET INVOLVED PAGE ================*/
 
+  /* HERO SECTION */
+
+  .involvepage-hero {
+    margin-top: 4rem;
+  }
+
+  .involvepage-hero h1 {
+    font-size: 3rem;
+    padding-left: 1rem;
+    margin-top: -1rem;
+    color: #2a7cba;
+    position: absolute;
+    background-color: #fff;
+    width: 27rem;
+    border-radius: 0 40px 40px 0;
+}
+  
+  .involvepage-hero-img {
+    width: 95%;
+    object-fit: cover;
+    margin-bottom: 3rem;
+    margin-left: 1rem;
+}
+
   /* SELF ADVOCACY SECTION */
 
   .self-advocacy {
