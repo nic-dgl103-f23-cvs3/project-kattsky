@@ -150,6 +150,7 @@
                 id="fname"
                 name="firstname"
                 placeholder="Ex: Mary"
+                required
             />
 
             <label for="lname">Last Name<span class="label-required">* (required)</span></label>
@@ -158,6 +159,7 @@
                 id="lname"
                 name="lastname"
                 placeholder="Ex: Jones"
+                required
             />
 
             <label for="email"
@@ -173,11 +175,11 @@
 
             <fieldset>
                 <legend>Availability</legend>
-                <input type="radio" id="wday" name="wday" value="Weekdays">
+                <input type="radio" id="wday" name="available" value="Weekdays">
                 <label for="wday">Weekdays</label><br>
-                <input type="radio" id="wend" name="wend" value="Weekends">
+                <input type="radio" id="wend" name="available" value="Weekends">
                 <label for="wend">Weekends</label><br>
-                <input type="radio" id="any" name="any" value="Any day">
+                <input type="radio" id="any" name="available" value="Any day">
                 <label for="any">Any day</label>
               </fieldset>
 
