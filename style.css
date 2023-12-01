@@ -815,25 +815,11 @@ with modifications done on colors and border-radius and removing the top .1rem s
   background-color: #19a86a;
 }
 
-    /* Below is from Codepen https://codepen.io/Vesh123/pen/YzJKwNp
-with modifications done on colors and border-radius and removing the top .1rem shadow on hover, remove 1rem vertical drop on :active, reduced blur effect to .3rem, and reduced vertical drop shadow in hover to .5rem*/
-.card a:hover{
-  background-color: #148654;
-  color:#fff;
-  transition: 0.1s;
-  border-radius: 1rem;
-  box-shadow: 0.1rem .5rem 0.3rem #19a86a;
-  transform: translateY(-2px);   /* reused from previous exercise */
+donate-options a:hover {
+  background-color: #fff;
+  color: #19a86a;
+  border: 1px solid #19a86a;
 }
-.card a:active{
-  background-color: #19a86a;
-  color:#fff;
-  border-radius: 1rem;
-  transition: 0.1s;
-  box-shadow: 0.1rem 0.1rem #19a86a;
-  transform: translateY(-2px);   /* reused from previous exercise */
-}
-/* Codepen code ends here */
 
 .thank-you-note {
   margin-top: -8rem;
@@ -1218,6 +1204,12 @@ with modifications done on colors and border-radius and removing the top .1rem s
      }
      .donate-options {
       align-items: center;
+    }
+
+    .donate-options a:hover {
+      background-color: #fff;
+      color: #19a86a;
+      border: 1px solid #19a86a;
     }
 
     .thank-you-note {
