@@ -622,10 +622,10 @@ with modifications done on colors and border-radius and removing the top .1rem s
 }
   
   .involvepage-hero-img {
-    width: 95%;
+    width: 100%;
     object-fit: cover;
+    margin: auto;
     margin-bottom: 3rem;
-    margin-left: 1rem;
 }
 
   /* SELF ADVOCACY SECTION */
