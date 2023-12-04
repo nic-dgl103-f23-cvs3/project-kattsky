@@ -561,10 +561,7 @@ with modifications done on colors and border-radius and removing the top .1rem s
   margin-top: -2rem;
   text-align: center;
 }
-.visit-us h3 {
-  padding: 10rem 0 0 1rem;
-  font-size: 2.5rem;
-}
+
 .visit-us iframe {
   border: 0;
   width: 100%;
