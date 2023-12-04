@@ -563,12 +563,14 @@ with modifications done on colors and border-radius and removing the top .1rem s
 }
 
 .visit-us iframe {
+  margin-top: 3rem;
   border: 0;
   width: 100%;
   object-fit: scale-down;
 }
 .get-in-touch {
-  padding-bottom: 5rem;
+  padding: 0 2rem 5rem;
+  margin-top: 10rem;
 }
 .get-in-touch h3 {
   margin-top: -5rem;
