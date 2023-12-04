@@ -853,6 +853,11 @@ donate-options a:hover {
         font-size: 1.4rem;
         letter-spacing: 1px;
     }
+
+    .current-page {
+      font-weight: 800;
+    }
+
     .navlinks i {
         font-size: 1.6rem;
         color: red;
