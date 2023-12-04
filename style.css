@@ -651,19 +651,12 @@ with modifications done on colors and border-radius and removing the top .1rem s
 }
 .volunteering h2 {
   font-size: 3rem;
-  padding: 1rem;
-  margin-top: -2rem;
-  color: #fff;
-  position: absolute;
-  background-color: #2a7cba;
-  width: 39rem;
-  border-radius: 0 40px 40px 0;
-  margin-bottom: 5rem;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  padding: -1rem 6rem;
+  text-align: center;
 }
 
 .volunteering blockquote {
-  padding: 8rem 1rem 2rem;
+  padding: 2rem 1rem 2rem;
   margin: 0;
   font-style: italic;
 }
@@ -680,7 +673,7 @@ with modifications done on colors and border-radius and removing the top .1rem s
   padding-left: 1rem;
 }
 .volunteering img {
-  width: 100vw;
+  width: 100%;
   padding: 2rem 0 1rem;
 }
 
