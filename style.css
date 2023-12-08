@@ -1044,8 +1044,7 @@ with modifications done on colors and border-radius and removing the top .1rem s
     padding: 2rem 1rem;
   }
   .support-hero img {
-    width: 100%;
-    margin-top: 4rem;
+    margin-top: 2rem;
   }
 
   /* COMMUNITY SECTION  AND GET INVOLVED SELF-ADVOCACY SECTION */
