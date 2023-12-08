@@ -1173,9 +1173,8 @@ with modifications done on colors and border-radius and removing the top .1rem s
       }
       .donate h2 {
         font-size: 3.5rem;
-        width: 54%;
-        padding: 2rem 1rem;
-        margin-left: -2rem;
+        width: 100%;
+        padding: 6rem 1rem 0;
       }
 
      .donate-card {
