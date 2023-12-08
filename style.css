@@ -1168,7 +1168,7 @@ with modifications done on colors and border-radius and removing the top .1rem s
         max-width: 1170px;
         margin: auto;
         margin-top: -3rem;
-        padding: 2rem;
+        padding: 2rem 2rem 5rem;
         align-items: flex-start;
       }
       .donate h2 {
