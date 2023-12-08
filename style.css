@@ -1122,8 +1122,8 @@ with modifications done on colors and border-radius and removing the top .1rem s
         margin-top: 5rem;
       }
     .involvepage-hero h1 {
-      font-size: 3.5rem;
-      width: 32%;
+      font-size: 4.5rem;
+      width: 100%;
       padding: 2rem 1rem;
     }
     .involvepage-hero img {
