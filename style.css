@@ -1086,11 +1086,13 @@ with modifications done on colors and border-radius and removing the top .1rem s
       display: flex;
       margin-top: -2px;
       padding-bottom: 5rem;
+      flex-wrap: wrap;
     }
     .visit-us h2 {
       font-size: 3.5rem;
-      width: 43%;
+      width: 100%;
       padding: 2rem 1rem;
+      margin-bottom: 5rem;
     }
     .meet-us {
       width: 50%;
