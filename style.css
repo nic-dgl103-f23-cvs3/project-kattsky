@@ -542,7 +542,6 @@ with modifications done on colors and border-radius and removing the top .1rem s
 
 .beaufort-cards img {
   width: 100%;
-  object-fit: contain;
   overflow: hidden;
   border-radius: 15px 15px 0 0;
 }
