@@ -615,6 +615,8 @@ with modifications done on colors and border-radius and removing the top .1rem s
 
 .employee-contacts a {
   text-transform: lowercase;
+  text-decoration: underline;
+  color: #505d68;
 }
 
 .employee-contacts thead, tbody tr:nth-child(even) {
@@ -622,7 +624,7 @@ with modifications done on colors and border-radius and removing the top .1rem s
 }
 
 .employee-contacts tbody tr:nth-child(odd) {
-  background-color: #f9f9f9; /* Set light gray background to odd rows */
+  background-color: #fcfcff; /* Set light gray background to odd rows */
 }
 
 .employee-contacts th:nth-child(2), td:nth-child(2) {
