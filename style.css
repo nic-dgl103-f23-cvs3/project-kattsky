@@ -1073,7 +1073,7 @@ with modifications done on colors and border-radius and removing the top .1rem s
     margin-bottom: 8rem;
   }
   .beaufort-cards {
-    flex: 0 calc(25.33% - 10px);
+    flex: 0 calc(30.33% - 75px);
     justify-content: space-evenly;
     height: 290px;
   }
