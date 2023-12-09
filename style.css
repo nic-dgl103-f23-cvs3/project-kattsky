@@ -72,13 +72,15 @@ html {
     display: flex;
     flex-direction: column;
     text-align: right;
-    padding: 0.5rem;
+    padding-top: 4rem;
+    padding-right: 3.5rem;
+    height: 60%;
     position: absolute;
-    right: 2rem;
+    right: 0;
     width: 100vw;
     background-color: #2a7cba;
-    line-height: 5rem;
-    font-size: 1.6rem;
+    line-height: 7rem;
+    font-size: 2rem;
     z-index: 3;
 }
 
