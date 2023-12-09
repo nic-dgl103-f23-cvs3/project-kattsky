@@ -1161,9 +1161,14 @@ with modifications done on colors and border-radius and removing the top .1rem s
       padding-top: 5rem;
     }
 
+    .employee-contacts thead th, tbody td {
+      font-size: 1.6rem;
+    }
+    
     .employee-contacts th:nth-child(3), td:nth-child(3) {
       display: block; 
     }
+
 
       /* ================GET INVOLVED PAGE ================*/
 
