@@ -633,10 +633,6 @@ with modifications done on colors and border-radius and removing the top .1rem s
   background-color: #fcfcff; /* Set light gray background to odd rows */
 }
 
-.employee-contacts th:nth-child(2), td:nth-child(2) {
-  text-wrap: nowrap; /* Set for the text to fill entire space of the table cell of the phone number column */
-}
-
 .employee-contacts th:nth-child(3), td:nth-child(3) {
   display: none; /* Hides 3rd column in mobile view */
 }
