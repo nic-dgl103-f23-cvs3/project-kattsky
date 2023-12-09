@@ -696,7 +696,7 @@ with modifications done on colors and border-radius and removing the top .1rem s
 }
 .volunteering h2 {
   font-size: 3rem;
-  padding: -1rem 6rem;
+  padding: 0 6rem;
   text-align: center;
 }
 
