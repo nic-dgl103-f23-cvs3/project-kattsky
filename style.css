@@ -592,6 +592,48 @@ with modifications done on colors and border-radius and removing the top .1rem s
   text-transform: lowercase;
 }
 
+.employee-contacts table {
+  width: 100%;
+  border-collapse: separate;
+  padding-bottom: 5rem;
+}
+
+.employee-contacts caption {
+  text-align: left;
+  padding-left: 2rem;
+  font-weight: 800;
+  font-size: 2rem;
+  padding-bottom: 2rem;
+}
+
+.employee-contacts thead th, tbody td {
+  border: 1px solid #dddddd;
+  padding: 2rem;
+  font-size: 1.4rem;
+  text-align: left; 
+}
+
+.employee-contacts a {
+  text-transform: lowercase;
+}
+
+.employee-contacts thead, tbody tr:nth-child(even) {
+  background-color: #ffffff; /* Add white background to thead, even rows */
+}
+
+.employee-contacts tbody tr:nth-child(odd) {
+  background-color: #f9f9f9; /* Set light gray background to odd rows */
+}
+
+.employee-contacts th:nth-child(2), td:nth-child(2) {
+  text-wrap: nowrap; /* Set for the text to fill entire space of the table cell of the phone number column */
+}
+
+.employee-contacts th:nth-child(3), td:nth-child(3) {
+  display: none; /* Hides 3rd column in mobile view */
+}
+
+
   /* ================GET INVOLVED PAGE ================*/
 
   /* HERO SECTION */
