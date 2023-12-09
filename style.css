@@ -922,7 +922,7 @@ donate-options a:hover {
         font-size: 2.5rem;
         padding: 3rem 0 4rem 0;
         margin-top: -70px;
-        width: 60vw; 
+        width: 60%; 
     }
     .programs a {
         margin-top: -6rem;
@@ -1164,7 +1164,7 @@ with modifications done on colors and border-radius and removing the top .1rem s
     .employee-contacts thead th, tbody td {
       font-size: 1.6rem;
     }
-    
+
     .employee-contacts th:nth-child(3), td:nth-child(3) {
       display: block; 
     }
