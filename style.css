@@ -68,6 +68,10 @@ html {
     color: white;
   }
 
+  .navlinks i {
+    display: none;
+  }
+
   .show-links { /* displays navigation links in a column layout when toggled */
     display: flex;
     flex-direction: column;
@@ -879,6 +883,7 @@ donate-options a:hover {
     }
 
     .navlinks i {
+        display: inline;
         font-size: 1.6rem;
         color: red;
         margin-left: -40px;
